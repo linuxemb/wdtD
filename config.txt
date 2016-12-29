@@ -1,0 +1,10 @@
+
+# this is configurateion file for Watchdog Daemon 
+
+# Below is the config data for each task
+# respawn means task has low priority, if dead, just kill it's process
+# reboot measn the task has high priority , if deat, system reboot
+PORT=9999
+WDTLib=reboot
+thread1= respawn 
+
